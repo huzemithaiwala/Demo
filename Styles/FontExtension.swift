@@ -5,32 +5,32 @@ public extension Text {
 
     func textStyleLargeTitle() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 34))
+            .font(Font.custom("Inter-Bold", size: 34))
     }
 
     func textStyleTitle() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 28))
+            .font(Font.custom("Inter-Bold", size: 28))
     }
 
     func textStyleTitle2() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 22))
+            .font(Font.custom("Inter-Bold", size: 22))
     }
 
     func textStyleTitle3() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 20))
+            .font(Font.custom("Inter-Bold", size: 20))
     }
 
     func textStyleHeadline() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 17))
+            .font(Font.custom("Inter-Bold", size: 17))
     }
 
     func textStyleSubHeadline() -> some View {
         return self
-            .font(Font.custom("Inter-500", size: 15))
+            .font(Font.custom("Inter-Medium", size: 15))
     }
 
     func textStyleBody() -> some View {
