@@ -35,31 +35,31 @@ public extension Text {
 
     func textStyleBody() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 17))
+            .font(Font.custom("Inter-Bold", size: 17))
     }
 
     func textStyleCallout() -> some View {
         return self
-            .font(Font.custom("Inter-400", size: 16))
+            .font(Font.custom("Inter-Regular", size: 16))
     }
 
     func textStyleCallout2() -> some View {
         return self
-            .font(Font.custom("Inter-500", size: 16))
+            .font(Font.custom("Inter-Medium", size: 16))
     }
 
     func textStyleFootnote() -> some View {
         return self
-            .font(Font.custom("Inter-500", size: 13))
+            .font(Font.custom("Inter-Medium", size: 13))
     }
 
     func textStyleCaption() -> some View {
         return self
-            .font(Font.custom("Inter-500", size: 12))
+            .font(Font.custom("Inter-Medium", size: 12))
     }
 
     func textStyleCaption2() -> some View {
         return self
-            .font(Font.custom("Inter-500", size: 11))
+            .font(Font.custom("Inter-Medium", size: 11))
     }
 }
